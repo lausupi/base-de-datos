@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  margin: 0;
+
+}
+.General {
+    display: flex;
+    position: relative;
+    background: linear-gradient(to right, #031922, #00fca8);
+    padding: 0px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.LeftText{
+    width: 50%;
+    background-color: #031922;
+    padding: 0;
+    z-index: 1;
+}
+
+
+.RightImage {
+    position: relative;
+    width: 50%
+}
+.Navegador{
+    display: flex;
+    gap: 15rem;
+    background-color: #e2e2e2;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+.Links {
+  text-decoration: none;
+  color: #02202c;
+  transition: 0.3s;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 500;
+}
+.Navegador a:hover{
+  color: #106b86;
+}
+.WholeText{
+  margin-top: 35%;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Ready{
+  color:#9dddc8;
+}
+.Slogan{
+ color:#02d891;
+}
+.Aboutus{
+ color: #bebebe;
+}
+.userpic{
+  margin-top: 5px;
+  margin-right: 15px;
+  height: 50px;
+  width: 48px;
+}
+.Navp1{
+  margin-left: 20px;
+  margin-top: 13px;
+
+}
+.logo{
+  width: 80px;
+  height: 80px;
+}
+.Name{
+  display: flex;
+}
+.Title{
+  color:#e0e0e0;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 15px;
+}
+.MainImage{
+  position: absolute;
+  margin-left: -95px;
+  z-index: 2;
+  width: 1080px;
+  height: 1080px;
+}
+
